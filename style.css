@@ -5,17 +5,22 @@ body {
     background-color: #f2f2f2;
 }
 .mainlogo{
-    width: 500px;
-    height: auto;
+    max-width: 55%;
+    max-height: 15%;
     display: block;
     margin: 0 auto 10px auto;
 }
 
 header {
-    background-color: green;
-    color: white;
-    text-align: center;
+    background-image: url(images/stripes2.jpg);
+    background-size: cover;
+    background-position: center;
     padding: 20px;
+    position: relative;
+    text-align: center;
+    font-size: large;
+    color: white;
+    
 }
 
 nav {
